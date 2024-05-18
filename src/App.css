@@ -1,0 +1,141 @@
+.wholebody{
+  background-color: bisque;
+}
+.name{
+  color: #D46A00;
+
+}
+.img1{
+  animation: rotate 9s infinite;
+}
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  /* 5%{
+    transform: rotate(15deg);
+  } */
+  10%{
+    transform: rotate(36deg);
+  }
+  /* 15%{
+    transform: rotate(45deg);
+  } */
+  20%{
+    transform: rotate(72deg);
+  }
+  /* 25%{
+    transform: rotate(75deg);
+  } */
+  30%{
+    transform: rotate(108deg);
+  }
+  /* 35%{
+    transform: rotate(105deg);
+  } */
+  40%{
+    transform: rotate(144deg);
+  }
+  /* 45%{
+    transform: rotate(135deg);
+  } */
+  
+  50%{
+    transform: rotate(180deg);
+  }
+  /* 55%{
+    transform: rotate(165deg);
+  } */
+  60%{
+    transform: rotate(216deg);
+  }
+  /* 65%{
+    transform: rotate(195deg);
+  } */
+  70%{
+    transform: rotate(252deg);
+  }
+  /* 75%{
+    transform: rotate(225deg);
+  } */
+  80%{
+    transform: rotate(288deg);
+  }
+  /* 85%{
+    transform: rotate(255deg);
+  } */
+  90%{
+    transform: rotate(324deg);
+  }
+  /* 95%{
+    transform: rotate(285deg);
+  } */
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.posters::-webkit-scrollbar{
+  display: none;
+}
+.btn1{
+  background-color: #3C3C3C;
+  height: 40px;
+  width: 327px;
+  top: 5052px;
+  left: 629px;
+  padding: 0px,16px,0px,16px;
+  gap: 8px;
+}
+.self{
+  line-height: 24.2px;
+  font-size: 20px;
+  font-family: "Inter";
+}
+.promotxt{
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30.26px;
+}
+#workspage{
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+.selfintro{
+  width: 50%;
+}
+@keyframes appear {
+  0%{
+    filter: opacity(0);
+  }
+  100%{
+    filter: opacity(1);
+  }
+}
+.promotxt{
+  width: 50%;
+}
+@media only screen and (max-width: 800px) {
+  .prom1{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .profimg{
+    width: 100%;
+  }
+  .btn1{
+    width: 100%;
+  }
+  .selfintro{
+    width: 75%;
+
+  }
+  .self{
+    width: 100%;
+  }
+  .promotxt{
+    width: 75%;
+  }
+}
